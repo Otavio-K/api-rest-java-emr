@@ -30,7 +30,8 @@ public class ClienteService {
         return repository.existsById(id);
     }
 
-    public void excluirCliente(Long id) {
+    public boolean excluirCliente(Long id) {
         repository.deleteById(id);
+        return false;
     }
 }
