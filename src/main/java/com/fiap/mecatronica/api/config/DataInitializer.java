@@ -1,6 +1,7 @@
 package com.fiap.mecatronica.api.config;
 
 import com.fiap.mecatronica.api.model.Ambiente;
+import com.fiap.mecatronica.api.model.Dispositivo;
 import com.fiap.mecatronica.api.repository.AmbienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

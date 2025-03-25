@@ -1,5 +1,7 @@
 package com.fiap.mecatronica.api.controller;
 
+import com.fiap.mecatronica.api.model.Dispositivo;
+import com.fiap.mecatronica.api.service.DispositivoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
